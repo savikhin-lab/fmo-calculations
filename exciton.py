@@ -3,6 +3,8 @@
 #from openpyxl import Workbook
 #from openpyxl import load_workbook
 #from openpyxl.chart import (ScatterChart, Reference, Series)
+import matplotlib
+matplotlib.use("TkAgg")
 import matplotlib.pyplot as plt
 import time
 
@@ -10,7 +12,7 @@ from ClassExciton import Exciton
 
 
 #ex = Exciton('HamiltonBrixner-6lower.xlsx','HamiltonBrixner-6lower-out.xlsx')
-ex = Exciton('HamiltonBrixner.xlsx','HamiltonBrixner.xlsx')
+ex = Exciton('HamiltonBrixner2.xlsx','HamiltonBrixner2.xlsx')
 
 #ex.calculate()
 t1 = time.time()

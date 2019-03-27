@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fmo-calculations"
+version = "0.1.0"
+description = "Compute the absorption and circular dichroism spectra of FMO given a Hamiltonian."
+authors = ["Sergei Savikhin <sergei@purdue.edu>", "Zach Mitchell <zmitchell@fastmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+numpy = "^1.16"
+matplotlib = "^3.0"
+openpyxl = "^2.6"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^18.3-alpha.0",allows-prereleases = true}
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
